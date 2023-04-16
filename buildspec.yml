@@ -10,7 +10,7 @@ phases:
     pre_build:
         commands:
             - python --version
-            - pylint newproj/*.py
+            - pylint *.py
             #- pylint newproj/transactions/*.py
 artifacts:
     files:
