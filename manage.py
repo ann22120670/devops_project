@@ -10,6 +10,14 @@ from django.core.management import execute_from_command_line
 
 
 def main():
+    """
+    Execute a management command from the command line.
+
+    Parses the command-line arguments to determine which management command
+    to execute, and then executes it. The command-line arguments are passed
+    in the `sys.argv` list.
+
+    """
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
     try:
         execute_from_command_line(sys.argv)
