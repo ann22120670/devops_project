@@ -30,14 +30,12 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions'
+    'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    'widget_tweaks',                            # uses 'django-widget-tweaks' app
-    'crispy_forms',                             # uses 'django-crispy-forms' app
-    'login_required',                           # uses 'django-login-required-middleware' app
-
+    'widget_tweaks',
+    'crispy_forms',
+    'login_required',
     'homepage.apps.HomepageConfig',
     'inventory.apps.InventoryConfig',
     'transactions.apps.TransactionsConfig',
