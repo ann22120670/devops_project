@@ -25,14 +25,12 @@ SECRET_KEY = 'qyu(9l9v%^+r(vt#ecf+36#lis516#3bo5@bo-rd*d%a=!%8#!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://x222120670anninventoryapp-env.eba-cczbynfr.eu-west-1.elasticbeanstalk.com/']
-# Application definition
-
+ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    'django.contrib.sessions'
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
