@@ -63,7 +63,7 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["templates"],  # included 'templates' directory for django to access the html templates
+        'DIRS': ["templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -138,6 +138,4 @@ LOGIN_REDIRECT_URL = (
 )
                           # sets the login redirect to the 'home' page after login
 
-LOGIN_URL = 'login'                                     # sets the 'login' page as default when user tries to illegally access profile or other hidden pages
-
-# LOGIN_REQUIRED_IGNORE_VIEW_NAMES = ['login', 'logout', 'about']
+LOGIN_URL = 'login'
