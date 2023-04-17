@@ -144,4 +144,4 @@ LOGIN_REDIRECT_URL = (
 
 LOGIN_URL = 'login'                                     # sets the 'login' page as default when user tries to illegally access profile or other hidden pages
 
-LOGIN_REQUIRED_IGNORE_VIEW_NAMES = [    'login',    'logout',    'about',]
+LOGIN_REQUIRED_IGNORE_VIEW_NAMES = ['login', 'logout', 'about',]
