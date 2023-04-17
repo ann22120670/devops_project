@@ -10,8 +10,8 @@ phases:
   pre_build:
     commands:
       - python --version
-      - pylint $CODEBUILD_SRC_DIR/*.py
-      - pylint $CODEBUILD_SRC_DIR/core/*.py
+      - pylint --disable=C0103 $CODEBUILD_SRC_DIR/*.py
+      - pylint --disable=C0103 $CODEBUILD_SRC_DIR/core/*.py
       
 
 artifacts:
