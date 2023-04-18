@@ -136,3 +136,4 @@ LOGIN_REDIRECT_URL = (
                           # sets the login redirect to the 'home' page after login
 
 LOGIN_URL = 'login'
+LOGIN_REQUIRED_IGNORE_VIEW_NAMES = ['login', 'logout', 'about',]
